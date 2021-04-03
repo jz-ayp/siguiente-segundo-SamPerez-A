@@ -12,8 +12,7 @@ minutos = int(input("Minutos: "))
 segundos = int(input("Segundos: "))
 # Proceso
 if (horas == 23 and segundos == 59 and minutos ==59) :
-# No se porque pero en esta linea, si le dejo que segundos es igual a segundos - 59
-me da como resultado 1, asi que le puse 60.
+# No se porque pero en esta linea, si le dejo que segundos es igual a segundos - 59 me da como resultado 1, asi que le puse 60.
  segundos -= 60
  minutos -= 59
  horas = 0
